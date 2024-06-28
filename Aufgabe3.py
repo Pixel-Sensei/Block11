@@ -13,7 +13,7 @@ def buchstaben_zaehlen(buchstabe):
         print("Es gibt", buchstaben_zaehler, "Wörter in der Textdatei.")
     else:
         print("Es gibt", buchstaben_zaehler, buchstabe, "in der Textdatei.")
-    # Datei schließen
+    # Datei schliessen
     meine_datei.close()
 
 buchstaben_zaehlen("w")

@@ -9,7 +9,7 @@ def neue_zeile():
     # Alle Zeilen der Datei lesen und ausgeben
     for zeile in meine_datei.readlines():
         print(zeile)
-    # Datei schließen
+    # Datei schliessen
     meine_datei.close()
 
 neue_zeile()
